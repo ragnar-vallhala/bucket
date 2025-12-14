@@ -1,2 +1,8 @@
+# Environment, Cache and temp files
 venv/
 __pycache__/
+media/
+migrations/
+
+# Database
+db.sqlite3
