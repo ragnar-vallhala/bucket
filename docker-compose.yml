@@ -5,7 +5,7 @@ services:
     build: .
     container_name: django-bucket
     ports:
-      - "8000:8000"
+      - "8040:8000"
     volumes:
       - ./media:/app/media
       - ./db.sqlite3:/app/db.sqlite3
